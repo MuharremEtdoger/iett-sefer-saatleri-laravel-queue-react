@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    content: "";
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #1D428A, transparent);
+    z-index: 1;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.iett-screen{
+    background-image: linear-gradient(to bottom, #fff, #1d428a);
+    width: 700px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 25px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+}
